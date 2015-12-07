@@ -1,0 +1,21 @@
+ion-side-menus(enable-menu-with-back-views='false')
+  ion-side-menu-content
+    ion-nav-bar.bar-stable
+      ion-nav-back-button
+      ion-nav-buttons(side='left')
+        button.button.button-icon.button-clear.ion-navicon(menu-toggle='left')
+    ion-nav-view(name='menuContent')
+
+  ion-side-menu(side='left')
+    ion-header-bar.bar-stable
+      h1.title Right
+    ion-content
+      ion-list
+        ion-item(menu-close='', ui-sref='home')
+          | Remboursement
+        ion-item(menu-close='', href='#/app/search')
+          | Echange
+        ion-item(menu-close='', href='#/app/browse')
+          | Remplacement Verre
+        ion-item(menu-close='', href='#/app/playlists')
+          | Réparation monture

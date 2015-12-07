@@ -1,0 +1,9 @@
+# Ignore config files
+**/*.conf.js
+**/*.config.js
+Gulpfile.js
+generator/**/*
+
+
+#Ignore test files
+**/*.spec.js
